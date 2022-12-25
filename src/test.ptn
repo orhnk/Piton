@@ -1,0 +1,54 @@
+dan random aktar randint
+
+
+eğer 3==1:
+  yaz("3, 1'e eşittir")
+değilse eğer 2==1:
+  yaz("2, 1'e eşittir")
+değilse:
+  yaz("ne 3 ne de 2, 1'e eşittir")
+
+eğer 0 == 0 ve 0 != 1 veya 0 != 2:
+  yaz("0, o'a eşit, 1 veya 2 ye eşit değildir!")
+
+dene:
+  1 / 0 # -> 0 ile bölünme hatası
+hariç Exception as e:
+  yaz(e)
+
+tanımla topla(a,b):
+  döndür a + b
+
+# sınıf eşek: # -> class eşek 
+
+
+iken Doğru:
+  yaz("döngünün içindesin")
+  eğer değil Yanlış ve 0 != 0: # -> if not False and 0 != 0:
+    devam # -> contiue
+  kır # -> break
+
+iddia 1==1 # -> assert 1==1
+
+için a içinde aralık(12): # -> for a in range(12):
+  yaz(a)
+
+tanımla boş():
+  ilet 1 # -> yield 1
+  geç # -> pass
+
+dene:
+  ver ZeroDivisionError
+hariç Exception as e:
+  yaz(e)
+
+ile aç("test.ptn", 'r') olarak d: # -> with open("test.ptn", 'r') as d: -> d stands for dosya meaning file
+  yaz(d.read()) # -> metodlar ingilizce belirlenmiş.
+
+yaz(Hiç) # -> print(None)
+
+a = 1
+b = 1
+eğer a dır b: # -> if a is b:
+  yaz("a, b'ye eşittir.")
+
