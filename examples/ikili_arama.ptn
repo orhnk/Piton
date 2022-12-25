@@ -1,0 +1,38 @@
+tanımla ikili_arama(liste, l, r, x):
+ 
+    # Check base case
+    eğer r >= l:
+ 
+        mid = l + (r - l) // 2
+ 
+        # eğer element is present at the middle itself
+        eğer liste[mid] == x:
+            döndür mid
+ 
+        # eğer element is smaller than mid, then it
+        # can only be present in left sublisteay
+        değilse eğer liste[mid] > x:
+            döndür ikili_arama(liste, l, mid-1, x)
+ 
+        # değilse the element can only be present
+        # in right sublisteay
+        değilse:
+            döndür ikili_arama(liste, mid + 1, r, x)
+ 
+    değilse:
+        # Element is not present in the listeay
+        döndür -1
+ 
+ 
+# Driver Code
+liste = [2, 3, 4, 10, 40]
+x = 10
+yaz(f"{liste}'de {x}'u arıyorum")
+
+# Function call
+sonuç = ikili_arama(liste, 0, len(liste)-1, x)
+ 
+eğer sonuç != -1:
+    yaz(f"aradığınız element {sonuç + 1}. sırada")
+değilse:
+    yaz("Element listede yok")

@@ -1,0 +1,7 @@
+dan random aktar randint
+dan time aktar sleep
+
+yaz("rastgele bir rakam yazacağım")
+yaz("...")
+sleep(1)
+yaz(randint(0,10))
