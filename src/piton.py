@@ -42,7 +42,7 @@ tr_eng = [
         ("Hiç", "None"),
         ("kır", "break"),
         ("aç", "open"),
-        ]
+]
 
 content = f.read()
 for (tr, eng) in tr_eng:
