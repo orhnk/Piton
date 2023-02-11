@@ -13,4 +13,4 @@
   piton test.ptn
   ```
 # How?
-  It just binds turkish keywords to english python. Thats why it is not scalable and practical in big projects (Strings get bind too!)
+  It just binds turkish keywords to english python. Thats why it is not scalable and practical for big projects (Strings get bind too!)
